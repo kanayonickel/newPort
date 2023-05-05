@@ -24,12 +24,12 @@ export default function Home() {
      <TransitionEffects />
 
 
-      <main className="flex items-center text-dark w-full min-h-screen">
+      <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
        {/* Found 0 vulnerabilities */}
        <Layout className="pt-0">
           <div className="flex items-center justify-between w-full">
             <div className="w-1/2">
-               <Image src={profilePic} alt="Kanayo" className='w-55 h-55'/>
+               <Image src={profilePic} alt="Kanayo" className='w-55 h-55' priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"/>
             </div>
             <div  className="w-1/2 flex flex-col items-center self-center">
                 <AnimatedText text="Turning Vision Into Reality With Code And Design." className='!text-6xl !text-left'/>
@@ -38,8 +38,8 @@ export default function Home() {
                 </p>
                 
                 <div className="flex items-center self-start mt-2">
-                  <Link href="/kanayoJFrontend_Main.pdf" target={"_blank"} className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark">Resume <LinkArrow className={"w-6 ml-1"} /> </Link>
-                  <Link href="mailto:godwinkamagco@gmail.com" className="underline ml-4 text-lg font-medium capitalize text-dark" target={"_blank"}>Contact</Link>
+                  <Link href="/kanayoJFrontend_Main.pdf" target={"_blank"} className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light">Resume <LinkArrow className={"w-6 ml-1"} /> </Link>
+                  <Link href="mailto:godwinkamagco@gmail.com" className="underline  dark:text-light ml-4 text-lg font-medium capitalize text-dark" target={"_blank"}>Contact</Link>
                 </div>
 
             </div>
