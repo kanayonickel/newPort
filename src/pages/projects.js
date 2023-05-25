@@ -13,7 +13,7 @@ import xixori from "../../public/images/projects/flixori.png"
 import Delphia from "../../public/images/projects/anon.jpeg"
 import portfolio from "../../public/images/projects/portfolio-cover-image.jpg"
 import NFT from "../../public/images/projects/nft-collection-website-cover-image.jpg"
-import Bnb from "../../public/images/projects/airbnb.PNG"
+import Bnb from "../../public/images/projects/airbnb.jpg"
 
 
 import {motion} from "framer-motion"
@@ -156,8 +156,8 @@ const projects = () => {
                            <FeatureProject
                            title="Mock AirBnB"
                            img={Bnb}
-                            summary="A simple fully responsive Movie web front-end using  Tailwind CSS and Nextjs. "
-                            link="https://mockbnb.vercel.app//"
+                            summary="A simple fully responsive home renting web front-end using  Tailwind CSS and Nextjs. "
+                            link="https://mockbnb.vercel.app"
                             github="https://github.com/kanayonickel/mockbnb"
                             type="Featured Project"/>
 
